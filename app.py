@@ -3,6 +3,7 @@ import streamlit.components.v1 as components
 import plotly.graph_objects as go
 from mcq.mcq_generation import MCQGenerator
 
+
 # 🔐 Load secrets
 GROQ_API = st.secrets["GROQ_API"]
 GOOGLE_API = st.secrets["GOOGLE_API"]
